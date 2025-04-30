@@ -1,6 +1,10 @@
-const locators = {
-    adminSection: 'a.oxd-main-menu-item',   
-    addButton: '.orangehrm-header-container .oxd-button--secondary',
+const bulkUserLocators = {
+    adminSection: 'a.oxd-main-menu-item',
+    userManagementSection: '.oxd-topbar-body-nav-tab-item',
+    dropdownUsers: '.oxd-dropdown-menu',
+    addButton: '.orangehrm-header-container .oxd-button--secondary',  //'.oxd-button-icon',
+
+
     dropdownButton: '.oxd-select-text--arrow',
     dropdownBox:'.oxd-select-dropdown',
     selectFromDropdown:'.oxd-select-option',
@@ -10,10 +14,10 @@ const locators = {
     passwordField: '[type="password"]',
     saveButton: '[type="submit"]',
     successMessage: '#oxd-toaster_1',
-    userDropDownTab: '.oxd-userdropdown-tab',
-    sidePanel: '.oxd-sidepanel',
-    errorMessage: '.oxd-alert-content-text',
+    searchButton: '[type="submit"]',
+    userManagementUsernameField: '.oxd-input-group',
 
-}
+  }
 
-export {locators} 
+  export {bulkUserLocators}
+

@@ -16,7 +16,7 @@ import { baseURL, login, loginLocators} from '../Constants.js';
     }
     searchByUsername() {
         cy.contains('label', 'Username').parents(resetLocators.userManagementUsernameField)
-        .find('input').type('Admin');
+        .find('input').type('test1');
     }
     // searchWithInvalidUsername() {
     //     cy.get(locators.userManagementUsernameField).find('input').type('InvalidUser');
